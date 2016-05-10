@@ -23,6 +23,7 @@ namespace Multithreading {
         {
             bool stopped = false;
             // lambda expression used like a delegate
+            // "()" before "=>" means that there is no input
             Thread t = new Thread(new ThreadStart(() =>
             {
                 while (!stopped)

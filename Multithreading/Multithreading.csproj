@@ -47,6 +47,8 @@
     <Compile Include="SimpleThreadPrivateInitializedVariable.cs" />
     <Compile Include="SimpleThreadPrivateVariable.cs" />
     <Compile Include="SimpleThreadSharedVariable.cs" />
+    <Compile Include="TaskSimple.cs" />
+    <Compile Include="ThreadPooling.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

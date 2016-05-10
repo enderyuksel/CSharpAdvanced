@@ -27,9 +27,19 @@ namespace Multithreading {
             //SimpleThreadPrivateVariable.MainSimpleThreadPrivateVariable();
             //Console.ReadKey();
 
-            Console.WriteLine("\n\n Simple Threading - threads' private initialized variables");
+            //Console.WriteLine("\n\n Simple Threading - threads' private initialized variables");
+            //Console.WriteLine("================================");
+            //SimpleThreadPrivateInitializedVariable.MainSimpleThreadPrivInitVar();
+            //Console.ReadKey();
+
+            //Console.WriteLine("\n\n Thread Pool - Threads are created and reused (but not killed) automatically");
+            //Console.WriteLine("================================");
+            //ThreadPooling.MainThreadPool();
+            //Console.ReadKey();
+
+            Console.WriteLine("\n\n Tasks");
             Console.WriteLine("================================");
-            SimpleThreadPrivateInitializedVariable.MainSimpleThreadPrivInitVar();
+            TaskSimple.MainTaskSimple();
             Console.ReadKey();
         }
     }

@@ -23,6 +23,10 @@ namespace Multithreading {
             }
         }
 
+        // These MainX methods need to be public
+        // otherwise they cannot be called from Program
+        // omiting "public" keyword results into the default access modifier
+        // which is "private" for class members
         public static void MainSimpleThread() {            
             // If ThreadMethod had an input argument, then we should have used ParametrizedThreadStart
             // and then call t.Start with the parameter value.
