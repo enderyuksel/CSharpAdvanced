@@ -23,7 +23,7 @@ namespace Multithreading {
             }
         }
 
-        static void Main(string[] args) {            
+        public static void MainSimpleThread() {            
             // If ThreadMethod had an input argument, then we should have used ParametrizedThreadStart
             // and then call t.Start with the parameter value.
             // You can also use lambda expressions (a short-hand version for delegate) to initialize thread
@@ -37,7 +37,7 @@ namespace Multithreading {
 
             for (int i = 0; i < 4; i++)
             {
-                Console.WriteLine("Main thread: Do some work. ");
+                Console.WriteLine("MainSimpleThread thread: Do some work. ");
                 Thread.Sleep(0);
             }
 
